@@ -1,0 +1,14 @@
+<ion-view view-title="{{vm.name}}" ng-controller="RoomCtrl">
+  <ion-content class="background-beauty">
+    <ion-list >
+		<ion-item ng-repeat="item in vm.items" ng-click="showDetails()">
+		<!--ng-href="#/app/light/{{vm.id}}/{{item.id}}"-->
+			<button class="button button-calm">
+				{{item.name}}
+			</button>
+			
+			<span class="badge badge-royal">{{item.value}}</span>
+		</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

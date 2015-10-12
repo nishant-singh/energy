@@ -1,0 +1,37 @@
+{
+rooms:
+[	
+	{
+		id:1,
+		name:"Kitchen",
+		items:[
+			{
+				id:1,
+				name:"Light",
+				value:7
+			},
+			{
+				id:2,
+				name:"Fan",
+				value:8
+			}
+			]
+	},
+	{
+		id:2,
+		name:"Bathroom",
+		items:[
+			{
+				id:1,
+				name:"Light",
+				value:8
+			},
+			{
+				id:2,
+				name:"Light",
+				value:5
+			}
+			]
+	}
+]
+}

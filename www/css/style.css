@@ -1,0 +1,65 @@
+/* Empty. Add your own CSS if you like */
+.larger {
+    font-size: 100px;
+}
+.larger-home {
+    font-size: 40px;
+}
+.menu-blur {
+-webkit-filter: blur(5px);
+opacity: .3;
+}
+.ionic-contrib-blur {
+  overflow: hidden;
+	position:absolute;
+  width: 100%;
+	top:0;
+	left:0;
+	right:0;
+	-webkit-filter:blur(20px);
+	opacity:.5;
+  z-index: 1;
+}
+
+.bar-frosted {
+  background-color: #F7F7F7;
+}
+.background-beauty{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2067a6+1,ff61b8+99,ff61b8+99,ff61b8+100,f60087+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2067a6+1,ff61b8+99,ff61b8+99,ff61b8+100,f60087+100 */
+background-image: #2067a6; /* Old browsers */
+background-image: -moz-linear-gradient(45deg,  #2067a6 1%, #ff61b8 99%, #ff61b8 99%, #ff61b8 100%, #f60087 100%); /* FF3.6+ */
+background-image: -webkit-gradient(linear, left bottom, right top, color-stop(1%,#2067a6), color-stop(99%,#ff61b8), color-stop(99%,#ff61b8), color-stop(100%,#ff61b8), color-stop(100%,#f60087)); /* Chrome,Safari4+ */
+background-image: -webkit-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* Chrome10+,Safari5.1+ */
+background-image: -o-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* Opera 11.10+ */
+background-image: -ms-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* IE10+ */
+background-image: linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2067a6', endColorstr='#f60087',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.frost{
+	filter:blur(5px);
+	background-color: rgba(255,255,255,0.5);
+}
+.frosting,.frosting>a{
+	background-color:rgba(0,0,0,0);
+	background:transparent;
+}
+.frosting>.item-content{
+	background-color:rgba(0,0,0,0.2);
+	color:white;
+	text-align:center;
+	border: none;
+}
+.bend{
+	height:100%;
+    width:100%;
+	    border:1px solid black;
+    border-top: 0px;
+    border-left:0px;
+    border-right:0px;
+    border-radius: 0px 0px 45% 45%;
+}
+.balanced-item{
+	border-color: #bfccd5;
+}

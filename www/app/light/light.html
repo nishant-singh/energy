@@ -1,0 +1,19 @@
+<ion-view view-title="{{vm.name}}" ng-controller="ItemCtrl">
+  <ion-content class="background-beauty">
+    <div class="list card">
+
+      
+
+      <div class="item item-image">
+        <i class="item item-icon-center ion-android-bulb larger" ></i>
+      </div>
+      <div class="bend">
+      <div class="item range range-positive">
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="10" ng-model="vm.value">
+        <i class="icon ion-ios-sunny"></i>
+      </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
