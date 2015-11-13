@@ -1,5 +1,5 @@
 <ion-view view-title="{{vm.name}}" ng-controller="RoomCtrl">
-  <ion-content class="background-beauty">
+  <ion-content ng-class="{'background-kitchen':vm.name=='Kitchen','background-room':vm.name}" >
     <ion-list >
 		<ion-item ng-repeat="item in vm.items" 
 		ng-href="#/app/light/{{vm.id}}/{{item.id}}"><!--ng-click="showDetails()"-->
