@@ -1,14 +1,14 @@
 <ion-view view-title="{{vm.name}}" ng-controller="RoomCtrl">
   <ion-content ng-class="{'background-kitchen':vm.name=='Kitchen','background-room':vm.name}" >
-    <ion-list >
+    <div class="list card" >
 		<ion-item ng-repeat="item in vm.items" 
 		ng-href="#/app/light/{{vm.id}}/{{item.id}}"><!--ng-click="showDetails()"-->
-			<button class="button button-calm">
-				{{item.name}}
-			</button>
 			
-			<span class="badge badge-royal">{{item.value}}</span>
+				{{item.name}}
+			
+			
+			Intensity: {{item.value}}
 		</ion-item>
-    </ion-list>
+    </div>
   </ion-content>
 </ion-view>
