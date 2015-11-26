@@ -1,4 +1,5 @@
-/* Empty. Add your own CSS if you like */
+    /* Empty. Add your own CSS if you like */
+    
 .larger {
     font-size: 100px;
 }
@@ -25,19 +26,12 @@ opacity: .3;
   background-color: #F7F7F7;
 }
 .background-beauty{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2067a6+1,ff61b8+99,ff61b8+99,ff61b8+100,f60087+100 */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2067a6+1,ff61b8+99,ff61b8+99,ff61b8+100,f60087+100 */
-/*background-image: #2067a6; /* Old browsers */
-/*background-image: -moz-linear-gradient(45deg,  #2067a6 1%, #ff61b8 99%, #ff61b8 99%, #ff61b8 100%, #f60087 100%); /* FF3.6+ */
-/*background-image: -webkit-gradient(linear, left bottom, right top, color-stop(1%,#2067a6), color-stop(99%,#ff61b8), color-stop(99%,#ff61b8), color-stop(100%,#ff61b8), color-stop(100%,#f60087)); /* Chrome,Safari4+ */
-/*background-image: -webkit-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* Chrome10+,Safari5.1+ */
-/*background-image: -o-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* Opera 11.10+ */
-/*background-image: -ms-linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* IE10+ */
-/*background-image: linear-gradient(45deg,  #2067a6 1%,#ff61b8 99%,#ff61b8 99%,#ff61b8 100%,#f60087 100%); /* W3C */
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2067a6', endColorstr='#f60087',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
- background-image: url("/img/home.jpg");
- background-size: 100% 100%;
- /*-webkit-filter: blur(1px);kb
+background-image: url("/img/ios-home.jpg");
+ 	background-size: cover;
+	
+/*
+ 
+ -webkit-filter: blur(1px);
   -moz-filter: blur(1px);
   -o-filter: blur(1px);
   -ms-filter: blur(1px);
@@ -80,29 +74,69 @@ opacity: .3;
 .topi{
 	/*margin-top: -5%;*/
 	position: relative;
+	background-color: rgba(200,200,200,0.7);
 }
 .room-grid{
-	background-color: rgba(50,50,50,0.15);
+	background-color: rgba(0,0,0,0.25);
 	margin:3px;
 	height:7em;
-	border-radius: 5px
+	border-radius: 25%;
+	border-color: rgba(0,0,0,0.09);
+	border:1px;
+	color:white;
+	text-align:center;
+}
+.room-grid.active{
+	background-color: rgba(0,0,0,0.65);
+}
+.room-grid.active>.bar-header>.title{
+	color:white;
+}
+.room-grid>.bar-header>.title{
+	color:black;
 }
 .ios-back{
-	background-color:rgba(220,220,220,0);
+	background-color:rgba(0,0,0,0.03);
+	border-color: rgba(0,0,0,0.03)
 }
 .ios-back-header{
-	background-color:rgba(150,150,150,0.55);
+	margin-top:2em;
+	background-color:rgba(0,0,0,0.1);
+	text-align: center;
+	color:white;
+	border-color: rgba(0,0,0,0.03)
 }
 .card{
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(240,240,240,0.2);
 }
 .card-wrapper{
-	/*background-color:rgba(200,200,200,0.8);*/
-	background-image: url("/img/bedroom.jpg");
-	-webkit-filter: blur(15px);
-	filter: blur(10px);
+	/*background-color:rgba(158,191,204,0.75);*/
+	    /* background-color: rgba(158,191,204,0.75); */
+    background-image: url("/img/ios-home.jpg");
+    background-size: cover;
+    -webkit-filter: blur(58px);
+    filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+    height: 1000px;
+    width: 100%;
+    
+}
+.frost-wrapper{
+	background-color:rgba(255,255,255,0.5);
+	/*background-image: url("/img/ios.jpg");
+ 	background-size: 100% 100%;*/
+	/*-webkit-filter: blur(15px);
+	filter: blur(10px);*/
 	position: absolute;
-	z-index: -1;
-	height: 100%;
+	z-index: 2;
+	height: 1000px;
 	width:100%;
+}
+.sidenav>.item-content,.sidenav.item{
+	background-color: rgba(0,0,0,0);
+}
+
+.rooms{
+	margin-top:3em;
 }
